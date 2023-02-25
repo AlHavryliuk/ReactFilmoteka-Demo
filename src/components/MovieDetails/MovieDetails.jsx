@@ -1,10 +1,5 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
-import {
-  Route,
-  Routes,
-  useLocation,
-  useParams
-} from 'react-router-dom';
+import { Route, Routes, useLocation, useParams } from 'react-router-dom';
 import movieApi from 'service/movieAPI';
 import {
   StyledBtnLink,
@@ -26,7 +21,7 @@ const MovieDetails = () => {
   const [movie, setMovie] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const location = useLocation();
-  const backLocation = location.state ?? '/';
+  const lastLocation = location.state ?? '/';
 
   // Fetch movie details
 
@@ -53,7 +48,9 @@ const MovieDetails = () => {
             We're sorry, detailed information on the selected movie is not
             available at the moment, please try again later...
           </h1>
-          <GoBackButton></GoBackButton>
+          <StyledBtnLink to={lastLocation.from ?? '/'}>
+            <GoBackButton></GoBackButton>
+          </StyledBtnLink>
         </>
       );
 
@@ -64,7 +61,7 @@ const MovieDetails = () => {
             <img
               src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
               alt="poster_image"
-              height="85%"
+              height="637"
             />
           </div>
           <ul className="description__wrapper">
@@ -93,7 +90,7 @@ const MovieDetails = () => {
             </li>
             <h2>Overview:</h2>
             <span>{movie.overview}</span>
-            <StyledBtnLink to={backLocation.from ?? '/'}>
+            <StyledBtnLink to={lastLocation.from ?? '/'}>
               <GoBackButton />
             </StyledBtnLink>
           </ul>

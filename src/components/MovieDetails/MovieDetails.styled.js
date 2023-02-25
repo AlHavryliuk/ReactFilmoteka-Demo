@@ -7,6 +7,7 @@ export const StyledWrapper = styled.div`
   grid-template-columns: repeat(2, 1fr);
 
   & > div {
+    min-height: 680px;
   }
 
   & .vote {
