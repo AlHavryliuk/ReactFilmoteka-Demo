@@ -1,10 +1,9 @@
-import React, { lazy, Suspense, useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import {
-  NavLink,
   Route,
   Routes,
   useLocation,
-  useParams,
+  useParams
 } from 'react-router-dom';
 import movieApi from 'service/movieAPI';
 import {
