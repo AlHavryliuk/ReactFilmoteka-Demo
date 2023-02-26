@@ -65,7 +65,7 @@ const MovieDetails = () => {
             />
           </div>
           <ul className="description__wrapper">
-            <h2>Desription:</h2>
+            <h2>Desription</h2>
             <li>
               <b>Title:</b> {movie.title || movie.name}
             </li>
@@ -88,7 +88,7 @@ const MovieDetails = () => {
                 ? movie.production_countries.map(({ name }) => name).join(', ')
                 : `unknown`}
             </li>
-            <h2>Overview:</h2>
+            <h2>Overview</h2>
             <span>{movie.overview}</span>
             <StyledBtnLink to={lastLocation.from ?? '/'}>
               <GoBackButton />
