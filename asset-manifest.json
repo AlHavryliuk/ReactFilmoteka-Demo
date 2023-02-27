@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/ReactFilmoteka-Demo/static/css/main.e6c13ad2.css",
-    "main.js": "/ReactFilmoteka-Demo/static/js/main.ddacb9a1.js",
+    "main.js": "/ReactFilmoteka-Demo/static/js/main.53b4dd69.js",
     "static/js/114.29ea1488.chunk.js": "/ReactFilmoteka-Demo/static/js/114.29ea1488.chunk.js",
     "static/js/201.6f277424.chunk.js": "/ReactFilmoteka-Demo/static/js/201.6f277424.chunk.js",
     "static/js/706.779f0481.chunk.js": "/ReactFilmoteka-Demo/static/js/706.779f0481.chunk.js",
-    "static/js/669.b2aaa141.chunk.js": "/ReactFilmoteka-Demo/static/js/669.b2aaa141.chunk.js",
+    "static/js/669.2ac9b805.chunk.js": "/ReactFilmoteka-Demo/static/js/669.2ac9b805.chunk.js",
     "static/js/821.9e8ed3ec.chunk.js": "/ReactFilmoteka-Demo/static/js/821.9e8ed3ec.chunk.js",
     "static/js/314.4d4dda08.chunk.js": "/ReactFilmoteka-Demo/static/js/314.4d4dda08.chunk.js",
     "static/js/593.933be573.chunk.js": "/ReactFilmoteka-Demo/static/js/593.933be573.chunk.js",
@@ -15,11 +15,11 @@
     "index.html": "/ReactFilmoteka-Demo/index.html",
     "static/media/sprtite.svg": "/ReactFilmoteka-Demo/static/media/sprtite.19d2ef066b54bf6ecf4a8456ff63b1bf.svg",
     "main.e6c13ad2.css.map": "/ReactFilmoteka-Demo/static/css/main.e6c13ad2.css.map",
-    "main.ddacb9a1.js.map": "/ReactFilmoteka-Demo/static/js/main.ddacb9a1.js.map",
+    "main.53b4dd69.js.map": "/ReactFilmoteka-Demo/static/js/main.53b4dd69.js.map",
     "114.29ea1488.chunk.js.map": "/ReactFilmoteka-Demo/static/js/114.29ea1488.chunk.js.map",
     "201.6f277424.chunk.js.map": "/ReactFilmoteka-Demo/static/js/201.6f277424.chunk.js.map",
     "706.779f0481.chunk.js.map": "/ReactFilmoteka-Demo/static/js/706.779f0481.chunk.js.map",
-    "669.b2aaa141.chunk.js.map": "/ReactFilmoteka-Demo/static/js/669.b2aaa141.chunk.js.map",
+    "669.2ac9b805.chunk.js.map": "/ReactFilmoteka-Demo/static/js/669.2ac9b805.chunk.js.map",
     "821.9e8ed3ec.chunk.js.map": "/ReactFilmoteka-Demo/static/js/821.9e8ed3ec.chunk.js.map",
     "314.4d4dda08.chunk.js.map": "/ReactFilmoteka-Demo/static/js/314.4d4dda08.chunk.js.map",
     "593.933be573.chunk.js.map": "/ReactFilmoteka-Demo/static/js/593.933be573.chunk.js.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ddacb9a1.js"
+    "static/js/main.53b4dd69.js"
   ]
 }
