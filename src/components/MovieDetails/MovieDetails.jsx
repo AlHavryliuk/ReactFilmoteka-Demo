@@ -95,8 +95,12 @@ const MovieDetails = () => {
             </StyledBtnLink>
           </ul>
 
-          <StyledLink to="cast">Cast</StyledLink>
-          <StyledLink to="reviews">Reviews</StyledLink>
+          <StyledLink state={location.state} to="cast">
+            Cast
+          </StyledLink>
+          <StyledLink state={location.state} to="reviews">
+            Reviews
+          </StyledLink>
         </StyledWrapper>
         <Suspense>
           <Routes>
